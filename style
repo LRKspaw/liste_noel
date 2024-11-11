@@ -1,0 +1,92 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0e6f6;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.welcome-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #d32f2f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #b71c1c;
+}
+.gift-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+}
+
+.gift-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.gift-list li img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.gift-list li h2 {
+    font-size: 1.5em;
+    color: #d32f2f;
+    margin-bottom: 8px;
+}
+
+.gift-list li p {
+    font-size: 1em;
+    color: #555;
+}
