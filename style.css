@@ -108,4 +108,7 @@ nav ul li a:hover {
     background-color: #fff8e1;
 }
 
+.gift-list + nav {
+    margin-top: 20px; /* crée un espace uniquement quand <nav> suit .gift-list */
+}
 
